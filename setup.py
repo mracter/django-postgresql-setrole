@@ -14,9 +14,9 @@ except IOError:
 
 
 setup(
-    name=u"django-postgresql-setrole",
+    name=u"django-postgresql-setrole27",
     version=u"1.0.8",
-    packages=[u"postgresql_setrole"],
+    packages=[u"postgresql_setrole27"],
     classifiers=[
         u"Development Status :: 5 - Production/Stable",
         u"Intended Audience :: Developers",

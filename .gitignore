@@ -1,6 +1,8 @@
 *.iml
 *.pyc
 *.pyd
+*.bak
+.idea/
 dist/
 build/
 *.egg-info/

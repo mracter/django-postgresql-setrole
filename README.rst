@@ -1,5 +1,8 @@
-django-postgresql-setrole
-=========================
+django-postgresql-setrole27
+===========================
+
+This is a Python 2.7 port of Jonas Maurus' django-postgresql-setrole
+package.
 
 A Django application that executes `SET ROLE` on every connection to PostgreSQL
 opened by Django. This is useful if you're using external authentication
@@ -21,7 +24,7 @@ making all objects created owned by the owner role.
 
 How do I use this Django application?
 -------------------------------------
-Add `postgresql_setrole` to `INSTALLED_APPS`. Then in `settings.DATABASES` add
+Add `postgresql_setrole27` to `INSTALLED_APPS`. Then in `settings.DATABASES` add
 
 .. code-block:: python
 
@@ -29,7 +32,7 @@ Add `postgresql_setrole` to `INSTALLED_APPS`. Then in `settings.DATABASES` add
         "default": {
             ...,  # other settings
             "SET_ROLE": "mydatabaseowner",
-        }.
+        }
     }
 
 
